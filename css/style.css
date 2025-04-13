@@ -1,0 +1,297 @@
+/*font link*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*common start*/
+:root{
+
+  --mont:  "Montserrat Alternates", sans-serif;
+
+	--fs :16px;
+	--fwr:400;
+
+	--taxi-yellow: #FFD300;
+	--black      : #333333;
+	--white      : #ffffff;
+}
+body{
+	font-family: "Montserrat Alternates", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+/*common end*/
+
+
+/*header start*/
+.header{
+/*	margin-bottom: 200px;*/
+	background-color: var(--taxi-yellow);
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	margin-right: 20px;
+	font-family: var(--mont);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--white);
+	text-transform: uppercase;
+}
+.menu ul li a:hover{
+	color: red;
+}
+
+/*header end*/
+
+
+/*hero start*/
+/* Make carousel full height of viewport */
+.slider .carousel-item {
+  height: 100vh;
+  position: relative;
+}
+
+/* Ensure images fill the whole item space */
+.slider .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Dark overlay for better text visibility */
+.slider .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity if needed */
+  z-index: 1;
+}
+
+/* Style carousel caption */
+.slider .carousel-caption {
+  z-index: 2; /* Above overlay */
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for better readability */
+}
+
+/* Headline styling */
+.slider .carousel-caption h5 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Paragraph styling */
+.slider .carousel-caption p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Optional: Add animation */
+.slider .carousel-caption h5,
+.slider .carousel-caption p {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.b_button{
+	margin-top: 25px;
+	padding: 10px 25px;
+	background-color: var(--taxi-yellow);
+	color: var(--black);
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.b_button:hover {
+  background-color: red;
+  color: var(--white);
+}
+/*hero end*/
+
+
+/*about start*/
+.about{
+	padding: 30px 0 60px;
+}
+.a_img img{}
+.a_title{}
+.c_title{
+	padding: 35px 0;
+  font-family: "Montserrat Alternates", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.a_title p{
+	margin-bottom: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.about_button {}
+/*about end*/
+
+/*service start*/
+.services{
+	padding-bottom: 60px;
+}
+.s_title{}
+.s_title h1{
+	padding-top: 0;
+}
+.s_item{
+	margin-bottom: 20px;
+	padding: 30px 20px 30px;
+	background-color: #dbdee6;
+	border: none;
+  border-radius: 5px;
+	transition: box-shadow 0.3s ease;
+}
+.s_item:hover {
+	background-color: var(--white);
+  box-shadow: 0 0 10px 0 #000000;
+}
+.s_item h2{
+	padding: 20px 0;
+  font-family: "Montserrat Alternates", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 33.6px;
+}
+.s_item p{
+  font-family: "Montserrat Alternates", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.service_button{}
+/*service end*/
+/*features start*/
+.features	{
+	padding-bottom: 60px;
+}
+.f_title{}
+.f_title h1{
+	padding-top: 0;
+}
+.f_item{
+	margin-bottom: 20px;
+	padding: 30px 20px 30px;
+	background-color: #dbdee6;
+	border: none;
+  border-radius: 5px;
+	transition: box-shadow 0.3s ease;
+}
+.f_item:hover {
+	background-color: var(--white);
+  box-shadow: 0 0 10px 0 #000000;
+}
+.f_item h2{
+	padding: 20px 0;
+  font-family: "Montserrat Alternates", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 33.6px;
+}
+.f_item p{
+	padding-bottom: 20px;
+  font-family: "Montserrat Alternates", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.f_img{
+	border: none;
+	border-radius: 5px;
+}
+/*features end*/
+/*Contact start*/
+.contact{
+	padding: 55px 0 55px;
+	background-color: var(--black);
+}
+
+.contact_details{
+	padding-right: 150px;
+}
+.contact_details h1{
+	padding-top: 0;
+	color: var(--taxi-yellow);
+	text-transform: none;
+}
+.contact_details p{
+	color: var(--white);
+	line-height: 30px;
+}
+
+.contact_links{}
+.contact_links h2{
+	margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 30px;
+}
+.contact_links ul li a{
+	font-size: 16px;
+	margin-bottom: 8px;
+	display: block;
+  color: var(--white);
+  text-decoration: none;
+}
+
+/*Contact end*/
+
+/*testimony start*/
+.testimony{
+	padding-bottom: 100px;
+}
+.t_item{
+	margin-top: 40px;
+}
+.t_img{}
+.t_img img{}
+
+.t_text{}
+.t_text p{
+	font-size: 16px;
+	line-height: 27px;
+}
+/*testimmony end*/
+
+
+/*footer start*/
+.footer{
+	padding: 0 0 30px;
+	background-color: var(--black)!important;
+}
+.footer p{
+	color: var(--white);
+	line-height: 30px;
+}
+
+.footer p a{
+	color: var(--white);
+}
+/*footer end*/
