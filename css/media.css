@@ -1,9 +1,8 @@
-
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 /*	header start*/
 .logo{
-	width: 60% !important;
+	width: 40% !important;
 }
 /*header end*/
 /*hero start*/
@@ -24,6 +23,7 @@
 
 /* Force image height for better fit */
 .carousel-item img {
+  border-radius: 5px;
   height: 300px;
   object-fit: cover;
 }
@@ -38,13 +38,13 @@
 /*hero end*/
 /*about start*/
 .about{
-  padding: 25px 0 30px;
+  padding: 20px 0 20px;
 }
 .a_title {
   text-align: center;
 }
 .c_title {
-  padding: 15px 0 20px;
+  padding: 30px 0;
   font-size: 24px;
 }
 .a_title p {
@@ -53,10 +53,7 @@
 /*about end*/
 /*service start*/
 .services{
-  padding-bottom: 20px;
-}
-.s_title h1 {
-  padding-top: 15px;
+  padding: 30px 0 20px;
 }
 .s_item h2{
   font-size: 17px;
@@ -67,10 +64,7 @@
 /*service end*/
 /*features start*/
 .features{
-  padding-bottom: 20px;
-}
-.f_title h1 {
-  padding-top: 15px;
+  padding: 30px 0 20px;
 }
 .f_item h2{
   font-size: 17px;
@@ -154,32 +148,25 @@
 /*hero end*/
 /*about start*/
 .about{
-  padding: 25px 0 30px;
+  padding: 40px 0 20px;
 }
 .a_title {
   text-align: center;
 }
 .c_title {
-  padding: 15px 0 20px;
   font-size: 28px;
 }
 /*about end*/
 /*service start*/
 .services{
-  padding-bottom: 30px;
-}
-.s_title h1 {
-    padding-top: 15px;
+  padding: 40px 0 20px;
 }
 .s_item h2{
   font-size: 18px;
 }
 /*features end*/
 .features{
-  padding-bottom: 30px;
-}
-.f_title h1 {
-  padding-top: 15px;
+  padding: 40px 0 20px;
 }
 .f_item h2{
   font-size: 18px;
@@ -234,19 +221,18 @@
 
 /*about start*/
 .about{
-  padding: 30px 0 50px;
+  padding: 55px 0 20px;
 }
 .a_title {
   text-align: center;
 }
 .c_title{
-  padding: 20px 0 25px;
   font-size: 30px;
 }
 /*about end*/
 /*service start*/
 .services{
-  padding-bottom: 40px;
+  padding: 55px 0 20px;
 }
 .s_item h2{
   font-size: 20px;
@@ -254,7 +240,7 @@
 /*service end*/
 /*features start*/
 .features{
-  padding-bottom: 40px;
+  padding: 55px 0 20px;
 }
 .f_item h2{
   font-size: 20px;
@@ -282,9 +268,8 @@
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-/* about start */
+/*about start*/
 .c_title{
-  padding: 25px 0 30px;
   font-size: 32px;
 }
 /*about end*/
