@@ -47,10 +47,6 @@ body{
 
 
 /*hero start*/
-.slider {
-  padding-top: 80px; /* adjust according to your header height */
-}
-
 /* Make carousel full height of viewport */
 .slider .carousel-item {
   height: 100vh;
@@ -272,7 +268,9 @@ body{
 	margin-top: 40px;
 }
 .t_img{}
-.t_img img{}
+.t_img img{
+	border-radius: 10px
+}
 
 .t_text{}
 .t_text p{
